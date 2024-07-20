@@ -1,0 +1,67 @@
+
+
+HAB_PRODUCT milan
+
+HAB_SECURITY_VERSION 18
+
+HAB_CID 50
+
+HAB_CUSTOMER_REGION Retail
+
+OTA_KEY motorola/security/certs/hab_support/products/milan/apk_certs_Retail/ota.x509.pem
+
+
+
+This build is customer signed.
+
+Use "fastboot getvar cid" to confirm customer ID on secure HW.
+
+Value must be 0 (developer HW) or match this value:
+
+RetailSoftbank        => 50
+Retail                => 50
+RetailLocked          => 51
+
+
+For signed build support, please see:
+
+motorola/security/certs/README.txt
+
+
+
+
+
+
+enforce_anti_rollback_check_in_ota=true
+BOOTLOADER_ANTIROLLBACK_VER_SUM=026
+[anti_rollback_version_begin]
+preloader.img__preloader=0x02
+preloader.bin__preloader=0x02
+atf.img__atf=0x02
+atf_drm.img__atf_dram=0x02
+tee.img__tee=0x02
+lk.img__lk=0x02
+sspm.img__tinysys-sspm=0x02
+mcupm.img__tinysys-mcupm-RV33_A=0x02
+vm.img__vm=0x02
+gz.img__gz=0x02
+rkp.img__rkp=0x02
+unmap2.img__unmap2=0x02
+pi_img.img__pi_img=0x02
+spmfw.img__spmfw=0x00
+cam_vpu1.img__cam_vpu1=0x00
+cam_vpu2.img__cam_vpu2=0x00
+cam_vpu3.img__cam_vpu3=0x00
+scp.img__tinysys-loader-CM4_A=0x00
+scp.img__tinysys-scp-CM4_A=0x00
+scp.img__tinysys-scp-CM4_A_dram=0x00
+scp.img__dpmpm=0x00
+dpmdm.img__dpmdm=0x00
+dpmpt.img__dpmpt=0x00
+single_bin_modem.bin__md1rom=0x00
+single_bin_modem.bin__md1dsp=0x00
+single_bin_modem.bin__md1drdi=0x00
+lk_main_dtb.img__lk_main_dtb=0x00
+logo.img__logo=0x00
+dtbo.img__dtbo=0x00
+[anti_rollback_version_end]

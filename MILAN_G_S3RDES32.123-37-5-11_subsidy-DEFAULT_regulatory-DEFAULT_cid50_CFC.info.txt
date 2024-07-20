@@ -1,0 +1,11 @@
+BUILD INFORMATION
+  SW Version: milan_g-user 12 S3RDES32.123-37-5-11 502d0 release-keys
+  MBM Version: MBM-2.1-milan_g-44ad149187-240430
+  Modem Version: MT6769P_TC2.PR4.SP.V1.2.P39.03.34R
+  SW Display Build ID: S3RDES32.123-37-5-11
+  Build Fingerprint: motorola/milan_g/milan:12/S3RDES32.123-37-5-11/502d0:user/release-keys
+
+OTHER INFORMATION
+  Subsidy Lock Config: slcf_mediatek_default_v1.0.atc
+  Regulatory Info (eLabel): regulatory_info_default.png
+  eLabel SHA1: da39a3ee5e6b4b0d3255bfef95601890afd80709
